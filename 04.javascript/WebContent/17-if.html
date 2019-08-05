@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>17-if.html</title>
+	<script type = "text/javascript">
+		var sayHello = {};
+		sayHello.name = "전지성";
+		sayHello.age = 28;
+		
+		sayHello.sayName = function(){
+			document.write(sayHello.name);
+		};
+		
+		document.write(sayHello.name);
+		document.write(sayHello.age);
+		sayHello.sayName(); //메소드 호출하듯 호출
+		
+		var a;
+		var b = 5;
+		var c = null;
+		
+		//if(a){alert("a:true");}else{alert("a:false");}
+		//if(b){alert("a:true");}else{alert("a:false");}
+		//if(c){alert("a:true");}else{alert("a:false");}
+		//if(sayHello){alert("a:true");}else{alert("a:false");} /* 존재의 여부 */
+		//if(sayHello.name){alert("a:true");}else{alert("a:false");} /* 존재의 여부 */
+		//if(sayHello.age){alert("a:true");}else{alert("a:false");} /* 존재의 여부 */
+		if(sayHello.sayName){alert("a:true");}else{alert("a:false");} /* 존재의 여부 */
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

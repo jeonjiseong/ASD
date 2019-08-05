@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>08-messageBox.html</title>
+<script type = "text/javascript">
+	var user_id = prompt("아이디를 입력하세요","아이디");
+	
+	if(user_id!=""){
+		alert("어서오십시오"+user_id+"님");
+		var  result = confirm("로그아웃 하시겠습니까?");
+		
+		if(result){
+			alert("로그아웃 하였습니다.");
+		}else{
+			alert("로그아웃을 취소하였습니다.");
+		}
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>
